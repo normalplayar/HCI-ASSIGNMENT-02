@@ -1,0 +1,66 @@
+body {
+    background-image: url(https://cdn.steamstatic.com/steamcommunity/public/images/items/758230/ce7803bf66444e496762bd50d744c4f208bb1bd1.jpg);
+    background-size: cover;
+    background-position: center;
+}   
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    color: white;
+}
+.intro{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h4{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form {
+    color: white;
+
+}
+.border{
+    height: 2px;
+    text-align: center;
+    border-color: goldenrod;
+}
+.width{
+    width: 10%;
+}
+.established {
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+.menu {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 650px;
+    padding: 20px;
+}
+hr {
+    height: 3px;
+    background-color: goldenrod;
+    border-color: goldenrod;
+}
+.half{
+    height: 1px;
+    background-color: goldenrod;
+    border-color: goldenrod;
+}
+fieldset{
+    max-width: 650px;
+    border-color: goldenrod;
+    text-align: center;
+}
+legend{
+    text-align: center;
+}
+.submit{
+    margin-top: 10px;
+}

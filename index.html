@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>HCI ASSIGNMENT-02</title>
+</head>
+<body>
+    <div class="menu">
+    <hr>
+    <h1>Chris Cat Cooperation</h1>
+    <p class="established">est. 2023</p>
+    <hr>
+    <h4 class="intro">Please take this registration form if you would like a pet cat!</h4>
+    <form class="form">
+        <label for="name">Name:</label>
+        <input type="text" name="name" required><br><br>
+        <label for="sex">Sex:</label>
+        <input type="radio" name="sex" id="male" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" name="sex" id="female" value="female" required>
+        <label for="female">Female</label> <br><br>
+        <label for="age">Age:</label> 
+        <input id="age" type="number" name="age" min="13" max="120" required /><br><br>
+        <label for="country">Country: </label>
+        <select name="country" id="country">
+            <option value="indonesia" selected>Indonesia</option>
+            <option value="singapore">Singapore</option>
+            <option value="australia">Australia</option>
+        </select><br><br>
+        <label for="reason">Reasons to have a cat:</label><br>
+        <textarea name="reason" id="reason" cols="33" rows="4" required></textarea><br><br>
+        <hr class="half">
+        <h4>Now we will guide you for the type of cat that fits you the best!</h4>
+        <fieldset>
+            <legend>What do you want your cat's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving"> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+            <input id="extroverted" type="checkbox" name="personality" value="extroverted"> <label for="extroverted">Extroverted</label>
+            <input id="impulsive" type="checkbox" name="personality" value="impulsive"> <label for="impulsive">Impulsive</label>
+        </fieldset> <br>
+        <fieldset>
+            <legend>First time having a cat as a pet?</legend>
+            <input type="radio" name="cat-first-time" id="yes" value="yes" required>
+            <label for="yes">Yes</label>
+            <input type="radio" name="cat-first-time" id="no" value="no" required>
+            <label for="no">No</label>
+        </fieldset> <br>
+        <table border="1" class="border">
+            <tr>
+              <th class="width">First time</th>
+              <th class="width">Lazy</th>  
+              <th class="width">Loving</th>
+              <th class="width">Energetic</th>  
+              <th class="width">Extroverted</th>
+              <th class="width">Impulsive</th>  
+            </tr>
+            <tr>
+              <td rowspan="3">Yes</td>
+              <td colspan="2">Bengal</td>
+              <td colspan="3">British Shorthair</td>
+            </tr>
+            <tr>
+              <td>Ragdoll</td>
+              <td colspan="2">Siamese</td>
+              <td colspan="2">Burmese</td>
+            </tr>
+            <tr>
+              <td>Maine Coon</td>
+              <td>Abyssinian</td>
+              <td colspan="2">Norwegian Forest</td>
+              <td>Savannah</td>
+            </tr>
+            <tr>
+                <td rowspan="2">No</td>
+                <td>Devon Rex</td>
+                <td colspan="3">Birman</td>
+                <td>Manx</td>
+            </tr>
+            <tr>
+                <td>Siberian</td>
+                <td>Russian Blue</td>
+                <td>Munchkin</td>
+                <td colspan="2">Turkish Angora</td>
+            </tr>
+          </table>
+          <h4>This table helps you decide the type of cat for you</h4>
+          <label for="typeofcat">Type of cat:</label>
+        <input type="text" name="typeofcat" required><br><br>
+        <label for="calendar">Expected date of cat: </label>
+        <input type="date" id="calendar" name="calendar" required><br><br>
+        <input type="submit" value="Submit" class="submit">
+        <hr>
+    </form>
+</div>
+</body>
+</html>
